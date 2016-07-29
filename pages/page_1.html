@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>page_1</title>
+	<link rel="stylesheet" type="text/css" href="./css/page_1.css">
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/page_1.js"></script>
+	
+</head>
+<body>
+	<div class="write-top">
+		<div class="write-topone">  
+			<ul>
+				<li><a ui-sref=".putong">普通邮件</a></li>
+				<li><a ui-sref=".qun">群邮件</a></li>
+				<li><a ui-sref=".heka">贺卡</a></li>
+				<li><a ui-sref=".ming">明信片</a></li>
+				<li><a ui-sref=".yinshi">音视频邮件</a></li>
+			</ul>
+		</div>
+		<div class="write-toptwo">
+			<button>发送</button>
+			<button>定时发送</button>
+			<button>存草稿</button>
+			<button>关闭</button>
+		</div>
+	</div>
+
+	<div ui-view>
+		
+	</div>
+
+	
+
+
+	
+</body>
+</html>

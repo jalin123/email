@@ -1,0 +1,83 @@
+		
+
+		@charset'utf-8';
+        body,div,span,ul,li,a{
+                        margin: 0px;
+                        padding: 0px;
+        }
+        .write-top{
+        	/*border: 1px solid red;*/
+        	height: 70px;
+        	clear: both;
+        	margin-left: 10px;
+        	margin-top: 10px;
+        }
+        .write-topone{
+        	/*border: 1px solid red;*/
+        	clear: both;
+        }
+        .write-topone ul{
+        	margin-left: -20px;
+        }
+        .write-topone ul li{
+			/*border: 1px solid red;*/
+			width: 120px;
+			height: 35px;
+			margin-right: -18px;
+			/*margin-top: -5px;*/
+        }
+        .write-topone ul li a{
+        	text-decoration: none;
+        	display: block;
+        	font-size: 14px;
+        	font-weight: bold;
+        	color: #1E549F;
+        	width: 100%;
+        	height: 100%;
+        	background-color: #E0ECF9;
+        	text-align: center;
+        	line-height: 35px;
+        	border-radius: 5px;
+        	margin-top: 5px;
+        	z-index: -100;
+        }
+        .write-topone ul li a:hover{
+        	text-decoration: underline;
+        }
+        .write-toptwo{
+        	background-color: #C1D9F3;
+        	clear: both;
+        	float: left;
+        	/*border: 1px solid red;*/
+        	height: 35px;
+        	width: 1200px;
+        	margin-bottom: 15px;
+        	/*z-index: 30;*/
+        }
+        .write-toptwo button{
+        	margin-top: 5px;
+        	margin-left: 5px;
+        }
+        
+        .write-bottom{
+        	margin-left: 10px;
+        	background-color: #EFF5FB;
+        	font-size: 12px;
+        }
+        #mail-send li{
+        	margin-left: 5px;
+        	/*font-size: 13px;*/
+        	/*margin-right: 1px;*/
+        	/*border: 1px solid red;*/
+        }
+        #mail-send li a{
+        	text-decoration: none;
+        	color: #646BB7;
+        }
+        #mail-send li a:hover{
+        	text-decoration: underline;
+        }
+        .every11{
+                        background-color: red;
+                }
+       
